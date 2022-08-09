@@ -1,0 +1,124 @@
+.common{
+display:flex;
+flex-direction:row;
+width:100vw;
+height:100vh;
+overflow: scroll;
+}
+body{
+height:100vh;
+width:100vw;
+overflow: scroll;
+}
+.single{
+	display:flex;
+	flex-direction:column;
+	gap:15px;
+width:50%;
+background-color:grey;
+height:100%;
+margin:10px;
+overflow: scroll;
+}
+.cen{
+text-align:center;
+font-size:30px;
+}
+
+.jan{
+text-align:center;
+background-color:lightyellow;
+width:100%;
+font-size:30px;
+overflow: scroll;
+
+}
+.feb{
+text-align:center;
+background-color:lightblue;
+width:100%;
+font-size:30px;
+overflow: scroll;
+}
+.march{
+        display:flex;
+        align-items:center;
+text-align:center;
+justify-content:center;
+background-color:lightpink;
+height:300px;
+font-size:30px;
+height:40%;
+width:100%;
+overflow: scroll;
+}
+.april{
+text-align:center;
+background-color:lightgreen;
+width:100%;
+font-size:30px;
+overflow: scroll;
+}
+
+.double{
+display:flex;
+flex-direction:column;
+width:50%;
+background-color:lightblue;
+gap:15px;
+margin:10px;
+overflow: scroll;
+}
+
+.header{
+text-align:center;
+background-color:lightyellow;
+width:100%;
+font-size:30px;
+}
+.navigationbar{
+text-align:center;
+background-color:grey;
+width:100%;
+font-size:30px;
+overflow: scroll;
+}
+.row{
+display:flex;
+flex-direction:row;
+gap:20px;
+height:41%;
+width:100%;
+justify-content:center;
+text-align:center;
+font-size:30px;
+overflow: scroll;
+}
+.article{
+        display:flex;
+        flex-direction:column;
+align-items:center;
+justify-content:center;
+background-color:lightpink;
+width:80%;
+font-size:30px;
+overflow: scroll;
+
+}
+.sidebar{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+justify-content:center;
+background-color:lightyellow;
+width:20%;
+font-size:30px;
+overflow: scroll;
+}
+.footer{
+text-align:center;
+background-color:lightgreen;
+width:100%;
+font-size:30px;
+overflow: scroll;
+}

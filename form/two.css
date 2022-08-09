@@ -1,0 +1,55 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+height: 50vh;
+width: 50vw;
+background-color: lightblue;
+overflow:hidden;
+}
+.car{
+position:absolute;
+left:50%;
+top:50%;
+transform:translate(-50%, -50%);
+background-color:white;
+padding: 20px 20px 20px 20px;
+border-radius: 20px;
+
+}
+.bike{
+display:flex ; 
+flex-direction:column;
+gap:20px;
+}
+.auto{
+display:flex ; 
+flex-direction: row;
+gap:20px;
+}
+.plane{
+width: 40%;
+display:flex;
+flex-direction:row;
+gap:10px;
+}
+.air{
+width: 70px;
+}
+.cycle{
+text-align: center;
+padding-bottom:20px;
+}
+.name{
+text-align:center;
+}
+
+.cow{
+display:flex;
+flex-direction:row;
+gap:15px;
+
+
+}
